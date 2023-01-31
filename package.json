@@ -1,0 +1,25 @@
+{
+  "name": "ton-bot-sale-of-dumplings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoWangJ/ton-bot-sale-of-dumplings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoWangJ/ton-bot-sale-of-dumplings/issues"
+  },
+  "homepage": "https://github.com/LeoWangJ/ton-bot-sale-of-dumplings#readme",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.1",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.13.1",
+    "ton": "^13.3.0"
+  }
+}
