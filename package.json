@@ -2,8 +2,10 @@
   "name": "ton-bot-sale-of-dumplings",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
+    "app": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +21,7 @@
   "dependencies": {
     "@grammyjs/conversations": "^1.1.1",
     "dotenv": "^16.0.3",
-    "grammy": "^1.13.1",
-    "ton": "^13.3.0"
+    "grammy": "^1.11.2",
+    "ton": "^12.1.5"
   }
 }
